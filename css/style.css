@@ -80,7 +80,7 @@ h1,h2,h3,h4,h5,h6{
 .top-header{
   background-color: #1d1d1d;
   padding: 10px 0;
-  width: 100vh;
+  
 }
 .number{
   font-size: 14px;
@@ -132,7 +132,7 @@ h1,h2,h3,h4,h5,h6{
 /*#### Header css start ####*/
 header{
   background-color:pink;
-  width: 100vh;
+  
   padding: 35px 20px;
 }
 .col-30 img{
@@ -184,7 +184,7 @@ header{
   background: url("../img/home/01.jpg");
   padding: 200px 0;
   color:#fff;
-  width: 100vh;
+  
 }
 .home h1{
   font-size: 92px;
@@ -233,7 +233,7 @@ header{
 }
 
 .courses{
-  width: 100vh;
+  
 }
 .course-list{
   list-style: none;
