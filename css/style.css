@@ -1,0 +1,276 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*##### font family ####
+
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+#*/
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-full{
+  width: 100%;
+}
+
+.container:before,
+.container:after,
+.container-full:before,
+.container-full:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+}
+
+.section-padding{
+  padding: 120px 0;
+}
+
+.col-50{
+  width: 50%;
+  float: left;
+  padding: 0 25px;
+}
+.col-33{
+  width: 33.33%;
+  float: left;
+  padding: 0 25px;
+}
+.col-25{
+  width: 25%;
+  float: left;
+  padding: 0 25px;
+}
+
+.col-30{
+  width:30%;
+  float: left;
+  padding: 0 25px;
+}
+.col-70{
+  width:70%;
+  float:left;
+  padding: 0 25px;
+}
+.col-100{
+  width:100%;
+  float:left;
+  padding: 0 25px;
+}
+
+/*##### Top Header css #####*/
+.top-header{
+  background-color: #1d1d1d;
+  padding: 10px 0;
+}
+.number{
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  transition:.3s;
+  color: #b6b6b6;
+}
+
+.social{
+  margin-left: 30px;
+  color: #b6b6b6;
+  display: inline-block;
+  list-style: none;
+}
+.social li{
+  display: inline-block;
+  margin: 0 3px;
+  font-size: 14px;
+}
+.social li a{
+  text-decoration: none;
+  color: #b6b6b6;
+  transition:.3s;
+}
+
+.login-register{
+  float: right;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.login-register a{
+  text-decoration: none;
+  margin-left: 20px;
+  transition:.3s;
+  color: #b6b6b6;
+}
+.login-register i{
+  margin-right: 3px;
+}
+.number:hover,
+.social li a:hover,
+.login-register a:hover{
+  color: #fe1949;
+}
+/* #### top header css end ##### */
+
+/*#### Header css start ####*/
+header{
+  background-color:pink;
+  padding: 35px 20px;
+}
+.col-30 img{
+  width:200px;
+}
+.main-menu{
+  float: right;
+  display: inline-block;
+  list-style: none;
+  padding-top: 10px;
+}
+.main-menu li{
+  display: inline-block;
+}
+
+.main-menu li a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 19px;
+  transition:.3s;
+  text-transform: capitalize;
+  color: #fff;
+  border: 2px solid transparent;
+}
+.menu-title{
+  margin-right: 20px;
+}
+
+.menu-icon{
+  margin-left: 10px;
+}
+
+.menu-title:hover{
+  border-bottom: 2px solid #fe1949;
+}
+.main-menu li a:hover i{
+  border-bottom: 2px solid transparent  !important;
+}
+
+.menu-icon:hover{
+  color: #fe1949;
+}
+.main-menu .active{
+  border-bottom: 2px solid #fe1949;
+}
+
+/*#### Home css ####*/
+.home{
+  background: url("../img/home/01.jpg");
+  padding: 200px 0;
+  color:#fff;
+}
+.home h1{
+  font-size: 92px;
+  font-weight: 700;
+  position: relative;
+  
+}
+.home p{
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 40px 0;
+}
+.home h1:before{
+  width: 90px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: #fff;
+}
+.btn{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  display: inline-block;
+  font-weight: 600;
+  margin: 20px 10px 30px 0;
+  font-size: 19px;
+}
+.home .btn-active{
+  background: #fe1949;
+  border: 2px solid #fe1949;
+}
+.btn i{
+  visibility: hidden;
+  transition:.3s;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.btn:hover i{
+  visibility: visible;
+}
+
+.courses{
+ 
+}
+.course-list{
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+.course-list li{
+  text-decoration: none;
+  margin-right: 15px;
+  color: #252525;
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+.course-img img{
+  width: 100%;
+  height: 250px;
+  
+}
+
+.course-img{
+  position: relative;
+}
+
+.crs-ctg{
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  background: #fe1949;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.courses h3{
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
